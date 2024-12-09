@@ -33,6 +33,11 @@
                 ossz_eletkor += DateTime.Now.Year - v.SzületésiÉv;
             }
             Console.WriteLine($"4. feladat: Átlag életkor: {Math.Round(ossz_eletkor / versenyzok.Count, 1)} év");
+
+
+            //5.
+            Console.WriteLine($"5. feladat: Kérek egy kategóriát: ");
+            string kategória = Console.ReadLine();
         }
     }
 }
